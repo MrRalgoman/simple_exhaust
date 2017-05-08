@@ -5,7 +5,6 @@ hook.Add("PlayerSetModel", "clientSpawn", function(ply)
     // Have to call setspeed funcs in this hook to override darkRP
     ply:SetRunSpeed(se_config.runSpeed)
     ply:SetWalkSpeed(se_config.walkSpeed)
-
 end) // hook/function end
 
 local stamina = se_config.stamina * 100
