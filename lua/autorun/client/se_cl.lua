@@ -91,7 +91,6 @@ timer.Create("isSprinting", 0.1, 0, function()
         end -- end if
         up = true
     end -- end if
-    chat.AddText(tostring(LocalPlayer():GetRunSpeed()).." || "..tostring(stam))
 
     if (stam == int[1] || stam == int[2] || stam == int[3]) then
         net.Start("interval")

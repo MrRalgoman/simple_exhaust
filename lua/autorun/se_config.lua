@@ -20,10 +20,6 @@ se_config.stamina = 10
 -- The length is also based on what you set the stamina to.
 se_config.lengthMultipler = 2
 
------ Bar position -----
--- Set to top or bottom
-se_config.barPosition = "top"
-
 ----- Exhaust intervals -----
 -- Set the three intervals for when the client should slow down.
 -- By default, the client slows at 7.5 secs, 5 secs, and then 2.5 secs.
